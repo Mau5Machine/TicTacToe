@@ -13,6 +13,7 @@
         <li>jQuery stops the playes from clicking on the same square twice and shuts off the click event when a winner
             is found</li>
     </ul>
+    <p><strong>created by Christian Martins</strong></p>
 
 </body>
 
