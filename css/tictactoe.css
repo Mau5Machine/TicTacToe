@@ -1,0 +1,78 @@
+body {
+	font-family: Arial, Helvetica;
+}
+
+.wrapper {
+	margin-top: 100px;
+}
+
+table.board {
+	border-collapse: collapse;
+	background-color: #000000;
+	margin: 0 auto;
+	box-shadow: 3px 3px 3px #808080;
+}
+
+table.board td {
+	width: 120px;
+	height: 120px;
+	padding: 20px;
+}
+
+table.board img {
+	width: 100%;
+	height: 100%;
+}
+
+table.board tr td {
+	border: 2px solid #ffffff;
+	font-size: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+
+p.turn {
+	display: inline-block;
+	border-radius: 10px;
+	border: 2px dotted grey;
+	padding: 5px;
+}
+
+#p1,
+#p2 {
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+}
+
+#win-phrase {
+	text-shadow: 2px 2px 2px #808080c9;
+	font-family: 'Bangers', cursive;
+}
+
+#player-turn {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.x {
+	color: rgb(189, 0, 189);
+	text-shadow: 2px 2px 2px grey;
+}
+
+.x:before {
+	content: 'X';
+}
+
+
+.o {
+	color: rgb(224, 147, 2);
+	text-shadow: 2px 2px 2px grey;
+}
+
+.o:before {
+	content: 'O';
+}
+
+.b-shadow {
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.418);
+}
